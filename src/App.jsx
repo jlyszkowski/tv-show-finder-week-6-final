@@ -7,7 +7,7 @@ import Results from './pages/Results'
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/tv-show-finder-week-6-final">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
